@@ -56,17 +56,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ReadMe.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ReadMe.txt</LastGenOutput>
-    </Content>
-    <Content Include="ReadMe.txt">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ReadMe.tt</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
